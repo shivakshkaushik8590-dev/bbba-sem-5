@@ -1,0 +1,23 @@
+{
+  "name": "2am-to-pm-monorepo",
+  "version": "1.0.0",
+  "description": "2AM to PM — Haute European Cafe & Salon Full-Stack Architecture",
+  "private": true,
+  "scripts": {
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "start:backend": "npm --prefix backend start",
+    "build:frontend": "npm --prefix frontend run build",
+    "test:backend": "npm --prefix backend test"
+  },
+  "keywords": [
+    "2am-to-pm",
+    "luxury-cafe",
+    "react",
+    "express",
+    "supabase"
+  ],
+  "author": "2AM to PM Salon",
+  "license": "ISC"
+}
+
